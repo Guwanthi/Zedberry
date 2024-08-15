@@ -1,0 +1,166 @@
+body{
+	margin: 0px;	
+}
+
+.topic{
+	color: violet;
+	text-align: center;
+	font-size: 50px;
+	font-family: monospace;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  width: 25%;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: violet;
+  color: white;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.item {display: none;}
+img {vertical-align: middle;}
+
+#p{
+	font-size: 25px;
+	text-align: center;
+	color: grey;
+}
+
+.gallery div{
+	width:20%;height:200px; float: left; margin-left: 4%; margin-bottom: 4%; padding: 1% ; 
+}
+
+.gallery div img{
+	width: 100%;height: 100%;
+}
+
+.searchBar{
+	width: 900px;
+	height: 45px;
+	background-color: #dddddd;
+	margin-left: 310px;
+}
+#search{
+	width: 45px;
+	height: 45px;
+	background-color: #BEBEBE;
+}
+
+.list{
+	width:16%;height:240px; float: left; margin-top: 25px; padding-left: 3%; padding-top: 1%; padding-bottom: 1%; margin-bottom: 50px;
+}
+
+.list.a{
+	width:13%;height:200px; float: left; margin-top: 25px; padding-left: 3%; padding-top: 1%; padding-bottom: 1%; margin-bottom: 50px;
+}
+
+.b:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.b:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.b:hover {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.b:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h2{
+	text-align: center;
+	font-family: monospace;
+	color: violet;
+	font-size: 30px;	
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 20%;
+  margin-left: 4%;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.footer{
+	background-color: violet;
+	margin-top: 500px;
+	padding: 40px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
+.follow {
+	width: 50%;	
+	height: 140px;
+	float: left;
+	background-color: violet;
+	padding-top: 0px;
+	padding-left: 3%;
+	padding-bottom: 40px;	
+}
+
+.payment{
+	width: 50%;
+	height: 140px;
+	float: left;
+	background-color: violet;
+	padding-top: 0px;
+	padding-left: 3%;
+	padding-bottom: 40px;	
+}

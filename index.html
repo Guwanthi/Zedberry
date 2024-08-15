@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ZEDBERRY-Home Page</title>
+	<link rel="stylesheet" type="text/css" href="css/zedberry1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="margin: 0px;">
+	<h1 class="h1">ZEDBERRY BATHIK FASHIONS</h1>
+
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="arivals.html" target="_blank">Fashions</a>
+  <a href="gallery.html" target="_blank">Gallery</a>
+  <a href="Contact Us.html" target="_blank">Contact Us</a>
+</div>
+
+<br>
+
+<!-- Automatic Slideshow -->
+   <div class="slideshow-container">
+      <div class="item fade">
+        <img src="img/h1.png" alt="Sarees" style="width:100%;">
+        <div class="text">Sarees</div>
+      </div>
+      <div class="item fade">
+        <img src="img/h2.jpeg" alt="Frocks" style="width:100%;">
+        <div class="text">Frocks</div>
+      </div>    
+      <div class="item fade">
+        <img src="img/h3.jfif" alt="Blouses" style="width:100%;">
+        <div class="text">Blouses</div>
+      </div>
+      <div class="item fade">
+        <img src="img/h4.png" alt="Shirts" style="width:100%;">
+        <div class="text">Shirts</div>
+      </div>
+      <div class="item fade">
+        <img src="img/h5.png" alt="Gents Sarongs" style="width:100%;">
+        <div class="text">Gents Sarongs</div>
+      </div>
+      <div class="item fade">
+        <img src="img/h6.jpg" alt="Ladies Sarongs" style="width:100%;">
+        <div class="text">Ladies Sarongs</div>
+      </div>
+      <div class="item fade">
+        <img src="img/h7.png" alt="Bags,Shoes,Hats" style="width:100%;">
+        <div class="text" style="color: black;">Bags, Shoes, Hats, Caps</div>
+      </div>
+      <div class="item fade">
+        <img src="img/h8.png" alt="Bathik arts" style="width:100%;">
+        <div class="text" style="color: black;">Bathik Arts</div>
+      </div>
+  </div>
+
+  <br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("item");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<br>
+<div class="footer">
+<footer>
+  <h3>About Us</h3>
+  <p>Zedberry is an online fashion store and our tastefully designed products are made with fine finishes which enhance your look. All our products are made from fine quality raw materials yet affordable and satisfied with diverse of choices. A team of designers are working together to bring you the latest fashion trends of the world.</p>
+  <p>Since 2010, Zedberry has been a trend among all women who are looking for the latest bathik fashion trends. Zedberry online store comprises of all the varieties of modern tops, hottest dresses, shirts, Sarongs, bags, shoes and bathik arts for both women and men online shopping. </p>
+  <p>You will no longer busy with travelling, planning and dedicating the whole day moving from store to another. Zedberry will be your most wonderful and convenient way of styling yourself. You can save your important time and can purchase all your products depending on your own desires and adding the best smile on your faces.</p>
+</footer>
+</div>
+<div class="follow">
+  <h4>Follow Us</h4>
+	<i class="fa fa-twitter-square" style="font-size:36px"></i>
+	<i class="fa fa-facebook-square" style="font-size:36px"></i>
+	<i class="fa fa-instagram" style="font-size:36px"></i>
+  </div>
+  <div class="payment">
+  	<h4>Payment Methods</h4>
+  		<i class="fa fa-cc-visa" style="font-size:36px"></i>
+  		<i class="fa fa-cc-mastercard" style="font-size:36px"></i>
+  		<i class="fa fa-credit-card" style="font-size:36px"></i>
+  		<i class="fa fa-cc-paypal" style="font-size:36px"></i>
+  </div>
+	
+</body>
+</html>
